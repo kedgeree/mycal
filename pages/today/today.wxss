@@ -1,0 +1,70 @@
+/* pages/today/today.wxss */
+.dateInfo{
+  height: 567rpx;
+  background-color: #fff;
+  position: relative;
+}
+.dateInfo .bg-image{
+  width: 750rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dateInfo .content{
+  display:flex;
+  flex-direction: row;
+}
+.dateInfo .content .flex-item{
+  flex: 1;
+  height:  567rpx;
+  box-sizing: border-box;
+}
+.dateInfo .content .flex-item.left, .dateInfo .content .flex-item.right{
+  padding-top: 90rpx;
+  color: #a9a9a9;
+}
+.dateInfo .content .flex-item.left{
+  padding-left: 25rpx;
+}
+.dateInfo .content .flex-item.right{
+  text-align: right;
+  padding-right: 25rpx;
+}
+.dateInfo .content .flex-item.middle{
+  flex: 2;
+  text-align: center;
+  padding-top:25rpx;
+}
+.vertical-reading{
+    writing-mode: vertical-rl;
+}
+.gz-text{
+  font-size: 20px;
+  font-weight: 500;
+}
+.nongliTag{
+  background-color: #282825;
+  color: #ffda59;
+  border-radius: 10rpx;
+  padding: 5rpx 10rpx;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 14rpx;
+}
+.nongliDate{
+  font-size: 16px;
+  font-weight: bold;
+}
+.weekday{
+  margin-left: 20rpx;
+}
+.bigDay{
+  font-size: 110px;
+  font-weight: 600;
+}
+.myProg{
+    position: absolute;
+  bottom: 80rpx;
+  left: 25rpx;
+}

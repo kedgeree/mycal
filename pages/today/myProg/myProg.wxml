@@ -1,0 +1,6 @@
+<!--pages/today/myProg/myProg.wxml-->
+<view class="my-prog">
+  <image class="prog-bg" src="../../../resources/images/progress-bg.png"></image>
+  <view class="slot" style="width: {{width}}rpx;"></view>
+  <view class="leftPart">{{text}}</view>
+</view>

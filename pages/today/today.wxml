@@ -1,0 +1,19 @@
+<!--pages/today/today.wxml-->
+<view class="dateInfo">
+  <image class="bg-image" src="../../resources/images/bg.png" mode="widthFix"></image>
+  <view class="content">
+    <view class="flex-item left"><text class="vertical-reading gz-text">{{chineseYear}}</text></view>
+    <view class="flex-item middle">
+      <view><text class="nongliTag">农历</text><text class="nongliDate">{{chineseDate}}</text></view>
+      <view><text class="date">{{year}}年{{month}}月</text><text class="weekday">星期{{weekday}}</text></view>
+      <text class="bigDay">{{day}}</text>
+    </view>
+    <view class="flex-item right"><text class="vertical-reading gz-text" space="nbsp">{{gz.gm}}月   {{gz.gd}}日</text></view>
+  </view>
+  <my-prog class="myProg" percent="{{percent}}" text="今年剩余{{365 - slappedDays}}天"></my-prog>
+  <view></view>
+</view>
+<!-- <text>{{chineseYear}}</text>
+<text>{{chineseDate}}</text>
+<text>{{today}}</text>
+<text>{{yiji}}</text> -->

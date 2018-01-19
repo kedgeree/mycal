@@ -1,0 +1,32 @@
+/* pages/today/myProg/myProg.wxss */
+.my-prog{
+  text-align: center;
+  /* position: absolute;
+  bottom: 80rpx;
+  left: 25rpx; */
+}
+.prog-bg{
+  height: 30rpx;
+  width: 700rpx;
+}
+.slot{
+  height: 26rpx;
+  background-color: #fedb58;
+  position: absolute;
+  top:12rpx;
+  left:0rpx;
+  border-radius: 13rpx;
+  background-image:-webkit-gradient(linear,0 0, 100% 100% ,color-stop(25%,transparent),color-stop(25%,#fdcb41),color-stop(50%,#fdcb41),color-stop(50%,transparent),color-stop(75%,transparent),color-stop(75%,#fdcb41),to(transparent));
+  background-size: 16px 16px;
+  }
+.leftPart{
+  position: absolute;
+  top:10rpx;
+  left: 0;
+  height: 26rpx;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #a9a9a9;
+  text-align: center;
+}
